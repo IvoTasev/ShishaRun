@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="nl.saxion.playground.squarerootofpopeye">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/huqqah"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/huqqah"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="nl.saxion.playground.squarerootofpopeye.shisharun.activity.OnLoseScreen" android:screenOrientation="portrait"/>
+        <activity android:name="nl.saxion.playground.squarerootofpopeye.shisharun.activity.OnWinScreen" android:screenOrientation="portrait" />
+        <activity android:name="nl.saxion.playground.squarerootofpopeye.shisharun.activity.PlayField"  android:screenOrientation="portrait"/>
+        <activity android:name="nl.saxion.playground.squarerootofpopeye.shisharun.activity.MainActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
